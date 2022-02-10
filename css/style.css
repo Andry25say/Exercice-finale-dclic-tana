@@ -146,6 +146,7 @@ footer {
 footer p {
   margin-left: 89%;
 }
+/*les boutons*/
 input.bouton {
   background-color: #c55394;
   border-color: transparent;
@@ -154,6 +155,7 @@ input.bouton {
   margin-top: 10px;
   border-radius: 4px;
 }
+/*l'effet qui bouge le bouton lorquon le clic*/
 input.bouton:hover {
   background-color: #eb43a3;
   cursor: pointer;
