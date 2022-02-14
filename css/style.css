@@ -5,7 +5,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
- /*Les proprietes appliquees sur la barre de menu*/
+/*Les proprietes appliquees sur la barre de menu*/
 .menu {
   background-color: #c55394;
   width: 100%;
@@ -30,7 +30,7 @@ body {
 .m-right li {
   margin-right: 30px;
   list-style-type: none;
-  display: inline-block;
+  display:inline-block;
   align-items: center;
   float: right;
   padding: 0;
@@ -46,6 +46,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 15px;
   padding: 33px 15px;
+  margin: 0;
 }
 /*style du contenu general*/
 #container {
@@ -98,6 +99,12 @@ figure {
   position: relative;
   margin-left: 20px;
   width: 200px;
+}
+figure:hover {
+  opacity: 0.7;
+  transform: scale(1.06);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 /*les sous titres des figures*/
 figcaption {
